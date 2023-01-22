@@ -1,0 +1,93 @@
+ul li {
+    display:inline-block;
+    text-align: center;
+    height: 3em;
+    margin-left: 1px;
+    font-size: 1.8em;    
+}
+ul li :hover{
+    color: aqua;
+}
+ul {
+    margin: 0px 0px 0px 0px;
+    height: 6%;
+    width: 89%;
+    text-align:right;
+}
+.nv{
+    border: 1px solid black;
+    width: 100%;
+    background-image: linear-gradient(#000000,#243b67 90%);
+}
+body{ 
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+a{
+    width: 100%;
+    color: white;
+    margin-left: 12;
+    font-style: italic;
+    text-decoration: none;
+}
+.s1{
+    position: absolute;
+    top: 12%;
+    left: 9%;
+    color: white;
+    font-size: 50;
+    width: 50%;
+}
+.tx{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+.tx textarea{
+    width:350px;
+    opacity: 0.2;
+    height: 290;
+}
+.tx button{
+    width: 100%;
+}
+.tx textarea:hover{
+    opacity: 1;
+}
+.tx textarea:active{
+    color: black;
+    opacity: 1;
+}
+.p_an{
+    display: flex;
+    flex-direction: column;
+    height: 150%;
+    justify-content: space-around;
+    background-image: linear-gradient(#d1ca1d,black);
+}
+.x_an{
+    width:17%;
+    transition: 6s;
+    text-align: center;
+    height: 33%;
+    color: white;
+}
+.x_an:hover{
+    width: 50%;
+    border-radius: 0%;
+}
+@keyframes exa {
+     25%{color: #d1ca1d;}
+     50%{color: white;}
+     75%{color: #d1ca1d;}
+     100%{color: black;}
+}
+.hcj{
+    position: absolute;
+    top: 155%;
+    font-size: 600%;
+    right: 1%;
+    animation: exa 5s infinite;
+}
